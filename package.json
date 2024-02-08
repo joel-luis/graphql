@@ -1,0 +1,28 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "^2.23.0",
+    "dataloader": "^2.2.2",
+    "dotenv": "^16.3.1",
+    "graphql": "^15.5.0",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "@joel-luis/eslint-config": "^0.1.11",
+    "@types/node": "^20.10.5",
+    "@types/node-fetch": "^2.6.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
